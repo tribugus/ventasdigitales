@@ -1,0 +1,1744 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ventas Digitales | Redes Sociales que Venden para Negocios</title>
+  <meta name="description" content="Vendemos redes que venden: paquetes completos de video, contenido constante y web inteligente para negocios que quieren ventas reales, no solo likes." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+
+  <meta name="theme-color" content="#d4af37" />
+  <meta property="og:locale" content="es_MX" />
+  <meta property="og:site_name" content="Ventas Digitales" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Ventas Digitales | Redes Sociales que Venden para Negocios" />
+
+  <meta property="og:image" content="Thumbn-og.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+
+
+  <script>
+    /* Tema guardado (por defecto claro). Se aplica antes de pintar para evitar parpadeos. */
+    (function () {
+      var t = 'light';
+      try { t = localStorage.getItem('theme') === 'dark' ? 'dark' : 'light'; } catch (e) {}
+      document.documentElement.setAttribute('data-theme', t);
+    }());
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,700;1,800;1,900&family=Yellowtail&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="landing-shared.css" />
+</head>
+<body>
+
+  <!-- ICONOS SVG (sprite reutilizable; heredan color del tema) -->
+  <svg class="svg-sprite" aria-hidden="true" focusable="false">
+    <defs>
+      <pattern id="pt-dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" style="fill:var(--pk-dot)"/></pattern>
+      <pattern id="pt-st-w" width="18" height="18" patternUnits="userSpaceOnUse" patternTransform="rotate(-38)"><rect width="6" height="18" fill="#ffffff" fill-opacity=".11"/></pattern>
+      <pattern id="pt-st-v" width="18" height="18" patternUnits="userSpaceOnUse" patternTransform="rotate(-38)"><rect width="6" height="18" fill="#241048" fill-opacity=".10"/></pattern>
+    </defs>
+    <symbol id="i-arrow" viewBox="0 0 30 30"><circle cx="15" cy="15" r="14" style="fill:var(--btn-chip-bg)"/><path d="M9.5 15h10M15.5 10.5 20 15l-4.5 4.5" style="fill:none;stroke:var(--btn-chip-fg);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round"/></symbol>
+    <symbol id="i-post" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4.5"/><circle cx="9" cy="9" r="1.8"/><path d="m3.5 17 5-4.8 4 3.6 3-2.6 5 4.2"/></symbol>
+    <symbol id="i-story" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="3"/><circle cx="12" cy="10" r="3"/><path d="M10 17.5h4"/></symbol>
+    <symbol id="i-carousel" viewBox="0 0 24 24"><rect x="7" y="5" width="10" height="14" rx="2.5"/><path d="M3.5 8.5v7M20.5 8.5v7"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 1.5c.8 5.6 4.9 9.7 10.5 10.5-5.6.8-9.7 4.9-10.5 10.5C11.2 16.9 7.1 12.8 1.5 12 7.1 11.2 11.2 7.1 12 1.5Z" fill="currentColor" stroke="none"/></symbol>
+  </svg>
+
+  <!-- CAMBIO DE TEMA -->
+  <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Cambiar a tema oscuro" aria-pressed="false" title="Cambiar tema">
+    <svg class="ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    <svg class="ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+  </button>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#cotizar" class="header-cta header-live-pill js-open-quote" aria-label="Solicitar auditoria gratis para tu negocio">
+        <span class="live-dot" aria-hidden="true"></span>
+        <span class="pill-text-desktop">⚡ 10 auditorías de redes gratis esta semana · Quedan 2 espacios</span>
+        <span class="pill-text-mobile">⚡ Quedan 2 auditorías de redes</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>
+            <span class="hero-positive">Vendemos redes</span> <span class="hero-negative">que venden</span>.
+          </h1>
+
+          <p class="hero-description">
+            <strong>Tu negocio no vende porque tus redes no han subido de nivel y no son constantes.</strong><br />
+            No hacemos posts ni reels sueltos: creamos paquetes completos para asegurar ventas reales.
+          </p>
+
+          <ul class="hero-bullets" aria-label="Beneficios clave de los paquetes de redes que venden">
+            <li>Redes con nivel profesional, no improvisadas.</li>
+            <li>Constancia total: publicamos todo el mes, sin que dependas de ti.</li>
+            <li>Web y WhatsApp que convierten seguidores en ventas.</li>
+          </ul>
+
+          <div class="hero-actions">
+            <a href="#cotizar" class="btn btn-primary js-open-quote">
+              Solicitar auditoría gratis
+              <svg class="btn-arrow" viewBox="0 0 30 30" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg>
+            </a>
+          </div>
+
+          <div class="social-proof">
+            <div class="avatar-stack">
+              <img class="stack-avatar" src="retrato-m2.jpg" alt="Cliente satisfecha" />
+              <img class="stack-avatar" src="retrato-h1.jpg" alt="Cliente satisfecho" />
+              <img class="stack-avatar" src="retrato-m3.jpg" alt="Cliente satisfecha" />
+              <img class="stack-avatar" src="retrato-h2.jpg" alt="Cliente satisfecho" />
+            </div>
+            <p><strong> </strong> sigue consejos en redes</p>
+          </div>
+        </div>
+
+        <div class="hero-visual" id="ejemplos">
+          <div class="sites-marquee" aria-label="Muestra de proyectos implementados">
+            <div class="sites-track">
+              <figure class="site-shot js-project-shot" data-project="proyecto-1" role="button" tabindex="0" aria-label="Ver proyecto 1 en grande"><img src="proyecto-1.webp" alt="Proyecto implementado - ejemplo 1" loading="lazy" /></figure>
+              <figure class="site-shot js-project-shot" data-project="proyecto-2" role="button" tabindex="0" aria-label="Ver proyecto 2 en grande"><img src="proyecto-2.webp" alt="Proyecto implementado - ejemplo 2" loading="lazy" /></figure>
+              <figure class="site-shot js-project-shot" data-project="proyecto-3" role="button" tabindex="0" aria-label="Ver proyecto 3 en grande"><img src="proyecto-3.webp" alt="Proyecto implementado - ejemplo 3" loading="lazy" /></figure>
+              <figure class="site-shot js-project-shot" data-project="proyecto-4" role="button" tabindex="0" aria-label="Ver proyecto 4 en grande"><img src="proyecto-4.webp" alt="Proyecto implementado - ejemplo 4" loading="lazy" /></figure>
+
+              <figure class="site-shot js-project-shot" data-project="proyecto-1" role="button" tabindex="0" aria-label="Ver proyecto 1 en grande"><img src="proyecto-1.webp" alt="Proyecto implementado - ejemplo 1" loading="lazy" /></figure>
+              <figure class="site-shot js-project-shot" data-project="proyecto-2" role="button" tabindex="0" aria-label="Ver proyecto 2 en grande"><img src="proyecto-2.webp" alt="Proyecto implementado - ejemplo 2" loading="lazy" /></figure>
+              <figure class="site-shot js-project-shot" data-project="proyecto-3" role="button" tabindex="0" aria-label="Ver proyecto 3 en grande"><img src="proyecto-3.webp" alt="Proyecto implementado - ejemplo 3" loading="lazy" /></figure>
+              <figure class="site-shot js-project-shot" data-project="proyecto-4" role="button" tabindex="0" aria-label="Ver proyecto 4 en grande"><img src="proyecto-4.webp" alt="Proyecto implementado - ejemplo 4" loading="lazy" /></figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFICIOS -->
+    <section class="benefits" id="servicios">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Lo que incluye tu paquete</h2>
+          <p>Elige lo que más necesita tu negocio para vender</p>
+        </div>
+
+        <div class="benefits-grid">
+          <article class="benefit-card">
+            <img class="benefit-icon-image" src="icon-video.svg" alt="Video" />
+            <h3>Redes de siguiente nivel</h3>
+            <p>Video, diseño e identidad profesional que te posicionan como la mejor opción de tu zona o nicho.</p>
+          </article>
+
+          <article class="benefit-card">
+            <img class="benefit-icon-image" src="icon-calendar.svg" alt="Constancia" />
+            <h3>Constancia todo el mes</h3>
+            <p>Calendario fijo de contenido: publicamos sin fallar, sin “hoy no tuve tiempo” y sin depender de tu ánimo.</p>
+          </article>
+
+          <article class="benefit-card">
+            <img class="benefit-icon-image" src="icon-web.svg" alt="Web inteligente" />
+            <h3>Web inteligente</h3>
+            <p>El destino de tus redes: capta prospectos y los conecta contigo por WhatsApp.</p>
+          </article>
+
+          <article class="benefit-card">
+            <img class="benefit-icon-image" src="icon-auto.svg" alt="Automatización" />
+            <h3>Seguimiento automático</h3>
+            <p>Respuestas y recordatorios para que ningún prospecto se enfríe ni se pierda en el chat.</p>
+          </article>
+
+          <article class="benefit-card">
+            <img class="benefit-icon-image" src="icon-target.svg" alt="Estrategia" />
+            <h3>Estrategia de ventas</h3>
+            <p>Cada video y publicación tiene un objetivo: que te escriban y compren, no solo que den like.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PAQUETES MENSUALES -->
+    <section class="packs" id="paquetes" aria-labelledby="packs-title">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="packs-title">Packs mensuales para tus redes</h2>
+          <p>No dejes que tus clientes te asocien con “algo barato”. Diseños profesionales para tu negocio profesional.</p>
+        </div>
+
+        <div class="packs-grid">
+          <article class="pack pack-esencial" data-pack="Esencial">
+            
+            <div class="pack-frame">
+              <div class="pack-shape" aria-hidden="true"></div>
+              <div class="pack-face">
+                <svg class="pack-dots" aria-hidden="true" focusable="false"><rect width="100%" height="100%" fill="url(#pt-dots)"/></svg>
+                <header class="pack-head">
+                  <svg class="pack-head-art" viewBox="0 0 300 128" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+                    <path class="hd-bg" d="M0 0H300V128L0 102Z"/>
+                    <path d="M0 0H300V128L0 102Z" fill="url(#pt-st-w)"/>
+                    <circle class="hd-ring" cx="268" cy="14" r="30"/><circle class="hd-ring" cx="268" cy="14" r="46"/>
+                    <path class="hd-line" d="M0 109L300 135"/>
+                  </svg>
+                  
+                  <h3>Esencial</h3>
+                  <svg class="pack-tier" viewBox="0 0 72 22" role="img" aria-label="Nivel 1 de 3"><use href="#i-spark" x="0" y="1" width="20" height="20"/><use href="#i-spark" x="26" y="1" width="20" height="20" opacity=".28"/><use href="#i-spark" x="52" y="1" width="20" height="20" opacity=".28"/></svg>
+                </header>
+                <div class="pack-body">
+                  <ul class="pack-list"><li><svg class="pack-ico" viewBox="0 0 44 44" aria-hidden="true" focusable="false"><path class="ico-sh" d="M8 0H40V32L32 40H0V8Z" transform="translate(4 4)"/><path class="ico-bd" d="M8 0H40V32L32 40H0V8Z"/><use href="#i-post" x="8" y="8" width="24" height="24"/></svg><span class="pack-lbl">Post</span><i class="pack-leader" aria-hidden="true"></i><b>4</b></li><li><svg class="pack-ico" viewBox="0 0 44 44" aria-hidden="true" focusable="false"><path class="ico-sh" d="M8 0H40V32L32 40H0V8Z" transform="translate(4 4)"/><path class="ico-bd" d="M8 0H40V32L32 40H0V8Z"/><use href="#i-story" x="8" y="8" width="24" height="24"/></svg><span class="pack-lbl">Stories</span><i class="pack-leader" aria-hidden="true"></i><b>4</b></li><li><svg class="pack-ico" viewBox="0 0 44 44" aria-hidden="true" focusable="false"><path class="ico-sh" d="M8 0H40V32L32 40H0V8Z" transform="translate(4 4)"/><path class="ico-bd" d="M8 0H40V32L32 40H0V8Z"/><use href="#i-carousel" x="8" y="8" width="24" height="24"/></svg><span class="pack-lbl">Carrusel</span><i class="pack-leader" aria-hidden="true"></i><b>1</b></li></ul>
+                </div>
+                <div class="pack-foot">
+                  <svg class="pack-perf" aria-hidden="true" focusable="false"><line x1="10" y1="1" x2="100%" y2="1"/><circle cx="5" cy="1" r="5"/><circle class="rv-r" cx="100%" cy="1" r="5"/></svg>
+                  <div class="pack-price">
+                    <span class="pack-old">Antes $1,250</span>
+                    <span class="pack-now"><sup>$</sup>990</span>
+                    <span class="pack-per">al mes</span>
+                  </div>
+                  <a href="#cotizar" class="btn-svg pack-cta js-open-quote" data-pack="Esencial" aria-label="Agenda tu paquete Esencial">
+                  <svg class="bs-art" viewBox="0 0 300 56" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+                    <path class="bs-sh" d="M17 5H300V44L288 56H5V17Z"/>
+                    <path class="bs-bd" d="M12 0H295V39L283 51H0V12Z"/>
+                    <path class="bs-stripe" d="M212 0h13l-24 51h-13zM234 0h5l-24 51h-5z"/>
+                    <path class="bs-in" d="M14.5 4.5H290.5V37L281 46.5H4.5V14.5Z"/>
+                  </svg>
+                  <span class="bs-label">Agenda tu paquete</span>
+                  <svg class="btn-arrow" viewBox="0 0 30 30" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg>
+                </a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="pack pack-featured" data-pack="Creador">
+            <span class="pack-ribbon"><svg viewBox="0 0 196 36" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M1.5 1.5H194.5L182 18L194.5 34.5H1.5L14 18Z"/></svg><span>Más solicitado</span></span>
+            <div class="pack-frame">
+              <div class="pack-shape" aria-hidden="true"></div>
+              <div class="pack-face">
+                <svg class="pack-dots" aria-hidden="true" focusable="false"><rect width="100%" height="100%" fill="url(#pt-dots)"/></svg>
+                <header class="pack-head">
+                  <svg class="pack-head-art" viewBox="0 0 300 128" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+                    <path class="hd-bg" d="M0 0H300V128L0 102Z"/>
+                    <path d="M0 0H300V128L0 102Z" fill="url(#pt-st-v)"/>
+                    <circle class="hd-ring" cx="268" cy="14" r="30"/><circle class="hd-ring" cx="268" cy="14" r="46"/>
+                    <path class="hd-line" d="M0 109L300 135"/>
+                  </svg>
+                  <svg class="pack-spark a" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spark"/></svg><svg class="pack-spark b" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spark"/></svg>
+                  <h3>Creador</h3>
+                  <svg class="pack-tier" viewBox="0 0 72 22" role="img" aria-label="Nivel 2 de 3"><use href="#i-spark" x="0" y="1" width="20" height="20"/><use href="#i-spark" x="26" y="1" width="20" height="20"/><use href="#i-spark" x="52" y="1" width="20" height="20" opacity=".28"/></svg>
+                </header>
+                <div class="pack-body">
+                  <ul class="pack-list"><li><svg class="pack-ico" viewBox="0 0 44 44" aria-hidden="true" focusable="false"><path class="ico-sh" d="M8 0H40V32L32 40H0V8Z" transform="translate(4 4)"/><path class="ico-bd" d="M8 0H40V32L32 40H0V8Z"/><use href="#i-post" x="8" y="8" width="24" height="24"/></svg><span class="pack-lbl">Post</span><i class="pack-leader" aria-hidden="true"></i><b>8</b></li><li><svg class="pack-ico" viewBox="0 0 44 44" aria-hidden="true" focusable="false"><path class="ico-sh" d="M8 0H40V32L32 40H0V8Z" transform="translate(4 4)"/><path class="ico-bd" d="M8 0H40V32L32 40H0V8Z"/><use href="#i-story" x="8" y="8" width="24" height="24"/></svg><span class="pack-lbl">Stories</span><i class="pack-leader" aria-hidden="true"></i><b>8</b></li><li><svg class="pack-ico" viewBox="0 0 44 44" aria-hidden="true" focusable="false"><path class="ico-sh" d="M8 0H40V32L32 40H0V8Z" transform="translate(4 4)"/><path class="ico-bd" d="M8 0H40V32L32 40H0V8Z"/><use href="#i-carousel" x="8" y="8" width="24" height="24"/></svg><span class="pack-lbl">Carrusel</span><i class="pack-leader" aria-hidden="true"></i><b>2</b></li></ul>
+                </div>
+                <div class="pack-foot">
+                  <svg class="pack-perf" aria-hidden="true" focusable="false"><line x1="10" y1="1" x2="100%" y2="1"/><circle cx="5" cy="1" r="5"/><circle class="rv-r" cx="100%" cy="1" r="5"/></svg>
+                  <div class="pack-price">
+                    <span class="pack-old">Antes $2,500</span>
+                    <span class="pack-now"><sup>$</sup>1,890</span>
+                    <span class="pack-per">al mes</span>
+                  </div>
+                  <a href="#cotizar" class="btn-svg pack-cta js-open-quote" data-pack="Creador" aria-label="Agenda tu paquete Creador">
+                  <svg class="bs-art" viewBox="0 0 300 56" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+                    <path class="bs-sh" d="M17 5H300V44L288 56H5V17Z"/>
+                    <path class="bs-bd" d="M12 0H295V39L283 51H0V12Z"/>
+                    <path class="bs-stripe" d="M212 0h13l-24 51h-13zM234 0h5l-24 51h-5z"/>
+                    <path class="bs-in" d="M14.5 4.5H290.5V37L281 46.5H4.5V14.5Z"/>
+                  </svg>
+                  <span class="bs-label">Agenda tu paquete</span>
+                  <svg class="btn-arrow" viewBox="0 0 30 30" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg>
+                </a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="pack pack-premium" data-pack="Premium">
+            
+            <div class="pack-frame">
+              <div class="pack-shape" aria-hidden="true"></div>
+              <div class="pack-face">
+                <svg class="pack-dots" aria-hidden="true" focusable="false"><rect width="100%" height="100%" fill="url(#pt-dots)"/></svg>
+                <header class="pack-head">
+                  <svg class="pack-head-art" viewBox="0 0 300 128" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+                    <path class="hd-bg" d="M0 0H300V128L0 102Z"/>
+                    <path d="M0 0H300V128L0 102Z" fill="url(#pt-st-w)"/>
+                    <circle class="hd-ring" cx="268" cy="14" r="30"/><circle class="hd-ring" cx="268" cy="14" r="46"/>
+                    <path class="hd-line" d="M0 109L300 135"/>
+                  </svg>
+                  
+                  <h3>Premium</h3>
+                  <svg class="pack-tier" viewBox="0 0 72 22" role="img" aria-label="Nivel 3 de 3"><use href="#i-spark" x="0" y="1" width="20" height="20"/><use href="#i-spark" x="26" y="1" width="20" height="20"/><use href="#i-spark" x="52" y="1" width="20" height="20"/></svg>
+                </header>
+                <div class="pack-body">
+                  <ul class="pack-list"><li><svg class="pack-ico" viewBox="0 0 44 44" aria-hidden="true" focusable="false"><path class="ico-sh" d="M8 0H40V32L32 40H0V8Z" transform="translate(4 4)"/><path class="ico-bd" d="M8 0H40V32L32 40H0V8Z"/><use href="#i-post" x="8" y="8" width="24" height="24"/></svg><span class="pack-lbl">Post</span><i class="pack-leader" aria-hidden="true"></i><b>12</b></li><li><svg class="pack-ico" viewBox="0 0 44 44" aria-hidden="true" focusable="false"><path class="ico-sh" d="M8 0H40V32L32 40H0V8Z" transform="translate(4 4)"/><path class="ico-bd" d="M8 0H40V32L32 40H0V8Z"/><use href="#i-story" x="8" y="8" width="24" height="24"/></svg><span class="pack-lbl">Stories</span><i class="pack-leader" aria-hidden="true"></i><b>12</b></li><li><svg class="pack-ico" viewBox="0 0 44 44" aria-hidden="true" focusable="false"><path class="ico-sh" d="M8 0H40V32L32 40H0V8Z" transform="translate(4 4)"/><path class="ico-bd" d="M8 0H40V32L32 40H0V8Z"/><use href="#i-carousel" x="8" y="8" width="24" height="24"/></svg><span class="pack-lbl">Carrusel</span><i class="pack-leader" aria-hidden="true"></i><b>3</b></li></ul>
+                </div>
+                <div class="pack-foot">
+                  <svg class="pack-perf" aria-hidden="true" focusable="false"><line x1="10" y1="1" x2="100%" y2="1"/><circle cx="5" cy="1" r="5"/><circle class="rv-r" cx="100%" cy="1" r="5"/></svg>
+                  <div class="pack-price">
+                    <span class="pack-old">Antes $3,700</span>
+                    <span class="pack-now"><sup>$</sup>2,990</span>
+                    <span class="pack-per">al mes</span>
+                  </div>
+                  <a href="#cotizar" class="btn-svg pack-cta js-open-quote" data-pack="Premium" aria-label="Agenda tu paquete Premium">
+                  <svg class="bs-art" viewBox="0 0 300 56" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+                    <path class="bs-sh" d="M17 5H300V44L288 56H5V17Z"/>
+                    <path class="bs-bd" d="M12 0H295V39L283 51H0V12Z"/>
+                    <path class="bs-stripe" d="M212 0h13l-24 51h-13zM234 0h5l-24 51h-5z"/>
+                    <path class="bs-in" d="M14.5 4.5H290.5V37L281 46.5H4.5V14.5Z"/>
+                  </svg>
+                  <span class="bs-label">Agenda tu paquete</span>
+                  <svg class="btn-arrow" viewBox="0 0 30 30" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg>
+                </a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <p class="packs-note">Diseño real para marcas reales</p>
+      </div>
+    </section>
+
+    <!-- ALGUNOS PRODUCTOS LLEVAN FACTURA -->
+    <section class="invoice" id="factura" aria-labelledby="invoice-title">
+      <div class="container">
+        <div class="invoice-card">
+          <span class="invoice-ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" focusable="false"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6"/></svg>
+          </span>
+          <div class="invoice-copy">
+            <h2 id="invoice-title">¡Algunos productos llevan <mark>factura</mark>!</h2>
+            <p>Si requieres factura por el servicio que te damos, avísanos al agendar y te la emitimos.</p>
+          </div>
+          <a href="#cotizar" class="invoice-link js-open-quote">Pedir mi factura <span aria-hidden="true">&rarr;</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAMBIÉN VENDEMOS POR TI -->
+    <section class="we-sell" id="vendemos-por-ti" aria-labelledby="we-sell-title">
+      <div class="we-sell-bg" aria-hidden="true"><span class="slash s1"></span><span class="slash s2"></span><span class="slash s3"></span></div>
+
+      <div class="container">
+        <div class="we-sell-top">
+          <div class="we-sell-copy">
+            <span class="we-sell-kicker">También</span>
+            <h2 id="we-sell-title" class="we-sell-title">
+              <span class="ws-big">Vendemos</span>
+              <span class="ws-pill">por ti</span>
+              <span class="ws-script">sin que muevas un dedo</span>
+            </h2>
+            <p class="we-sell-lead">No solo te traemos prospectos: <strong>atendemos tu WhatsApp, damos seguimiento y cerramos la venta</strong> mientras tú te enfocas en entregar.</p>
+            <ul class="we-sell-checks">
+              <li>Respondemos en minutos, no en horas</li>
+              <li>Seguimiento hasta que el cliente decide</li>
+              <li>Reporte mensual de ventas cerradas</li>
+            </ul>
+            <a href="#cotizar" class="btn btn-primary js-open-quote">Quiero que vendan por mí <svg class="btn-arrow" viewBox="0 0 30 30" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a>
+          </div>
+
+          <div class="we-sell-visual" aria-hidden="true">
+            <div class="ws-phone">
+              <div class="ws-phone-bar">
+                <span class="ws-avatar">VD</span>
+                <div><strong>Tu negocio</strong><small>en línea · atendido por nosotros</small></div>
+              </div>
+              <div class="ws-chat">
+                <p class="msg in" style="--d:.2s">Hola, ¿tienen lugar el sábado?</p>
+                <p class="msg out" style="--d:1s">¡Hola! 😊 Sí: sábado 11:00 o 13:00. ¿Cuál te queda mejor?</p>
+                <p class="msg in" style="--d:1.8s">A las 11:00</p>
+                <p class="msg out" style="--d:2.6s">Listo ✅ tu cita quedó agendada. Te mando un recordatorio.</p>
+              </div>
+              <span class="ws-badge">+1 venta cerrada</span>
+            </div>
+          </div>
+        </div>
+
+        <ol class="we-sell-steps">
+          <li class="ws-step">
+            <span class="ws-num">01</span>
+            <span class="ws-ico"><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/><path d="M9 11h6M9 14h4"/></svg></span>
+            <h3>Atendemos tu WhatsApp</h3>
+            <p>Respondemos a cada prospecto rápido y con el tono de tu marca. Nadie se queda en visto.</p>
+          </li>
+          <li class="ws-step">
+            <span class="ws-num">02</span>
+            <span class="ws-ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M5 3 2 6M19 3l3 3"/></svg></span>
+            <h3>Damos seguimiento</h3>
+            <p>Resolvemos dudas, mandamos precios y recordatorios hasta que el cliente decida.</p>
+          </li>
+          <li class="ws-step">
+            <span class="ws-num">03</span>
+            <span class="ws-ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.7 2.7L16.5 9.5"/></svg></span>
+            <h3>Cerramos la venta o la cita</h3>
+            <p>Agendamos citas, tomamos pedidos y te pasamos al cliente listo para pagar.</p>
+          </li>
+          <li class="ws-step">
+            <span class="ws-num">04</span>
+            <span class="ws-ico"><svg viewBox="0 0 24 24"><path d="m21 8-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8M12 13v8"/></svg></span>
+            <h3>Tú solo entregas</h3>
+            <p>Te enfocas en tu producto o servicio; nosotros vendemos y te reportamos cada mes.</p>
+          </li>
+        </ol>
+      </div>
+
+      <div class="we-sell-ribbon" aria-hidden="true">
+        <div class="ribbon-track">
+          <span>Atendemos ✦ Damos seguimiento ✦ Cerramos ventas ✦ Tú solo entregas ✦ Atendemos ✦ Damos seguimiento ✦ Cerramos ventas ✦ Tú solo entregas ✦ </span>
+          <span>Atendemos ✦ Damos seguimiento ✦ Cerramos ventas ✦ Tú solo entregas ✦ Atendemos ✦ Damos seguimiento ✦ Cerramos ventas ✦ Tú solo entregas ✦ </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROBLEMAS -->
+    <section class="problems" id="problemas">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Por qué tu negocio no vende</h2>
+          <p>Casi siempre es una de estas tres razones. ¿Cuál te pasa a ti?</p>
+        </div>
+
+        <div class="swipe-hint" role="note" aria-label="Instrucción de swipe">
+          <span class="hint-chip hint-left">
+            <span class="hint-arrow">&#8592;</span>No es mi caso
+          </span>
+          <span class="hint-center">desliza</span>
+          <span class="hint-chip hint-right">
+            S&iacute; me pasa<span class="hint-arrow">&#8594;</span>
+          </span>
+        </div>
+
+        <div class="problems-grid">
+          <article class="problem-card">
+            <div class="problem-image problem-image-1" role="img" aria-label="Persona revisando redes sociales en el celular"></div>
+            <div class="problem-body">
+              <span class="problem-label">CASO #1</span>
+              <h3>Publico cuando puedo y nadie me compra</h3>
+              <p>Sin constancia, el algoritmo te olvida y tus clientes también. Un video hoy y nada por semanas no construye confianza ni ventas.</p>
+              <div class="solution-box">
+                <strong>SOLUCI&Oacute;N</strong>
+                <p>Calendario fijo y producción constante: tu negocio aparece todos los días sin que tengas que pensar qué subir.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="problem-card">
+            <div class="problem-image problem-image-2" role="img" aria-label="Persona buscando un negocio en internet"></div>
+            <div class="problem-body">
+              <span class="problem-label">CASO #2</span>
+              <h3>Mis redes se ven igual que las de todos</h3>
+              <p>Posts y reels sueltos entretienen, pero no venden. Sin estrategia ni nivel profesional, nadie te ve como la mejor opción.</p>
+              <div class="solution-box">
+                <strong>SOLUCI&Oacute;N</strong>
+                <p>Subimos tus redes de nivel: video, imagen y mensajes pensados para que te elijan a ti y te escriban listos para comprar.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="problem-card">
+            <div class="problem-image problem-image-3" role="img" aria-label="Persona saturada de tareas y mensajes"></div>
+            <div class="problem-body">
+              <span class="problem-label">CASO #3</span>
+              <h3>Tengo seguidores y mensajes, pero pocas ventas</h3>
+              <p>Te llegan curiosos, pero sin web clara ni seguimiento el interés se enfría y la venta se pierde en el chat.</p>
+              <div class="solution-box">
+                <strong>SOLUCI&Oacute;N</strong>
+                <p>Conectamos tus redes con una web inteligente y WhatsApp con seguimiento automático para cerrar más ventas.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="problem-card problem-card-thanks" id="problem-thanks" aria-hidden="true">
+            <div class="problem-body thanks-body">
+              <div class="thanks-icon">✓</div>
+              <h3>¡Gracias!</h3>
+              <p>Tus respuestas ayudan a personalizar tu cotización.<br>Sigue llenando y toca el botón de WhatsApp cuando estés listo.</p>
+              <button id="btn-continuar" class="btn btn-continuar" type="button">Continuar <svg class="btn-arrow" viewBox="0 0 30 30" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESO -->
+    <section class="process" id="proceso">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Así funciona tu paquete de redes que venden</h2>
+        </div>
+
+        <div class="process-box">
+          <article class="process-step">
+            <div class="process-icon"><img src="l0.webp" alt="" loading="lazy"></div>
+            <h3>1. Me platicas tu negocio</h3>
+            <p>Hablamos de lo que vendes, a quién y cuántas ventas quieres lograr.</p>
+          </article>
+
+          <article class="process-step">
+            <div class="process-icon"><img src="l2.webp" alt="" loading="lazy"></div>
+            <h3>2. Diseño tu paquete y precio</h3>
+            <p>Te envío una propuesta clara con lo que incluye tu paquete, tiempos y precio.</p>
+          </article>
+
+          <article class="process-step">
+            <div class="process-icon"><img src="l3.webp" alt="" loading="lazy"></div>
+            <h3>3. Producimos tu contenido y tu web</h3>
+            <p>Grabamos, editamos y diseñamos con estrategia de ventas, y construimos la web que recibe a tus prospectos.</p>
+          </article>
+
+          <article class="process-step">
+            <div class="process-icon"><img src="l4.webp" alt="" loading="lazy"></div>
+            <h3>4. Publicamos con constancia</h3>
+            <p>Publicamos todo el mes con calendario fijo y conectamos WhatsApp, formularios y seguimiento.</p>
+          </article>
+
+          <article class="process-step">
+            <div class="process-icon"><img src="l5.webp" alt="" loading="lazy"></div>
+            <h3>5. Medimos y escalamos</h3>
+            <p>Analizamos ventas reales cada mes y mejoramos lo que funciona. No te dejo solo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CASO REAL -->
+    <section class="case-study">
+      <div class="container">
+        <div class="case-card">
+          <div class="case-metrics">
+            <picture>
+              
+              <img src="doctora_cel.png" class="case-doctora-img" alt="" aria-hidden="true" loading="lazy">
+            </picture>
+            <span class="case-label">Caso real</span>
+            <h2>Negocio local - Redes que venden</h2>
+            <div class="metrics-grid">
+              <div>
+                <strong class="case-metric-number" data-prefix="+" data-value="50" data-suffix="%" data-decimals="0">+50%</strong>
+                <p>contactos nuevos</p>
+              </div>
+              <div>
+                <strong class="case-metric-number" data-prefix="-" data-value="25" data-suffix="%" data-decimals="0">-25%</strong>
+                <p>tiempo de respuesta</p>
+              </div>
+              <div>
+                <strong class="case-metric-number" data-prefix="+" data-value="75" data-suffix="%" data-decimals="0">+75%</strong>
+                <p>alcance en redes</p>
+              </div>
+            </div>
+            <p>Resultados en los primeros 60 días después de subir de nivel sus redes, publicar con constancia y conectar una web inteligente a WhatsApp.</p>
+          </div>
+
+          <div class="case-visual" role="img" aria-label="Caso real de cliente"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section class="testimonials" id="testimonios">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Lo que dicen mis clientes</h2>
+          <p class="testimonial-intro">Historias reales de negocios que dejaron de improvisar en redes y empezaron a vender.</p>
+          <p class="testimonial-picker-subtitle">Elige cual situacion se parece mas a la tuya</p>
+        </div>
+
+        <div class="swipe-hint testimonial-swipe-hint" role="note" aria-label="Instrucción de swipe testimonios">
+          <span class="hint-chip hint-left">
+            <span class="hint-arrow">&#8592;</span>No me pasa
+          </span>
+          <span class="hint-center">desliza</span>
+          <span class="hint-chip hint-right">
+            Me identifico<span class="hint-arrow">&#8594;</span>
+          </span>
+        </div>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card testimonial-choice">
+            <div class="stars">★★★★★</div>
+            <p>“Mis redes por fin venden. Ya no publico cuando puedo: hay constancia y cada semana me escriben más clientes.”</p>
+            <div class="testimonial-author">
+              <img class="testimonial-avatar" src="retrato-m2.jpg" alt="Carmen Ortega" />
+              <div><strong>Carmen Ortega</strong><span>Clínica de estética</span></div>
+            </div>
+          </article>
+
+          <article class="testimonial-card testimonial-choice">
+            <div class="stars">★★★★★</div>
+            <p>“Antes perdía mensajes y ventas. Ahora todo llega ordenado por WhatsApp desde mis redes y mi web.”</p>
+            <div class="testimonial-author">
+              <img class="testimonial-avatar" src="retrato-h1.jpg" alt="Edgar Razo" />
+              <div><strong>Edgar Razo</strong><span>Restaurante</span></div>
+            </div>
+          </article>
+
+          <article class="testimonial-card testimonial-choice">
+            <div class="stars">★★★★★</div>
+            <p>“Mis redes pasaron de amateur a profesionales. Ahora me eligen a mí por encima de la competencia.”</p>
+            <div class="testimonial-author">
+              <img class="testimonial-avatar" src="retrato-m3.jpg" alt="Julia Mercado" />
+              <div><strong>Julia Mercado</strong><span>Tienda de ropa</span></div>
+            </div>
+          </article>
+
+          <article class="testimonial-card testimonial-choice">
+            <div class="stars">★★★★★</div>
+            <p>“Constancia, orden y ventas todos los meses, sin que yo tenga que estar detrás. 100% recomendado.”</p>
+            <div class="testimonial-author">
+              <img class="testimonial-avatar" src="retrato-m1.jpg" alt="Mariana López" />
+              <div><strong>Mariana López</strong><span>Estudio de fitness</span></div>
+            </div>
+          </article>
+
+          <article class="testimonial-card testimonial-choice">
+            <div class="stars">★★★★★</div>
+            <p>“Ventas entendió perfecto lo que necesitaba y lo convirtió en redes que realmente venden mi servicio.”</p>
+            <div class="testimonial-author">
+              <img class="testimonial-avatar" src="retrato-h2.jpg" alt="Luis Gutiérrez" />
+              <div><strong>Luis Gutiérrez</strong><span>Despacho contable</span></div>
+            </div>
+          </article>
+
+          <!-- Tarjeta resumen (solo móvil) -->
+          <div class="testimonial-thanks-card" id="testimonial-thanks">
+            <div class="thanks-icon-wrap"><span>&#10003;</span></div>
+            <h3>¡Ya casi terminas!</h3>
+            <div class="thanks-summary-body" id="thanks-summary-body"></div>
+            <p class="thanks-note">Solo falta un paso: responde 3 preguntas rápidas y te preparo un paquete de redes que venden para tu negocio.</p>
+            <button id="btn-ir-cotizar" class="btn btn-continuar" type="button">Quiero mi paquete <svg class="btn-arrow" viewBox="0 0 30 30" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="final-cta" id="cotizar">
+      <div class="container">
+        <div class="cta-card">
+          <div class="cta-form-copy">
+            <h2>Auditoría gratuita de tus redes</h2>
+            <p class="cta-form-subtitle">Responde estas preguntas y te diré por qué tus redes no están vendiendo y qué paquete necesita tu negocio para asegurar ventas reales.</p>
+            <div class="quote-form">
+              <label class="quote-field" for="quote-service">
+                <span class="quote-index">1.</span>
+                <span>
+                  <strong>Qué vendes</strong>
+                  <input id="quote-service" class="quote-input" type="text" placeholder="tus productos, servicios o tipo de negocio." />
+                </span>
+              </label>
+              <label class="quote-field" for="quote-goal">
+                <span class="quote-index">2.</span>
+                <span>
+                  <strong>Qué quieres lograr con tus redes</strong>
+                  <input id="quote-goal" class="quote-input" type="text" placeholder="más ventas, más clientes, verte profesional, ser constante, etc." />
+                </span>
+              </label>
+              <label class="quote-field" for="quote-ref">
+                <span class="quote-index">3.</span>
+                <span>
+                  <strong>Cómo llevas tus redes hoy</strong>
+                  <input id="quote-ref" class="quote-input" type="text" placeholder="qué redes usas, cada cuánto publicas y cómo te llegan clientes hoy." />
+                </span>
+              </label>
+            </div>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" id="send-quote-whatsapp" data-whatsapp>
+              <img class="cta-whatsapp-icon" src="whatsapp_white.png" alt="WhatsApp" />
+              Enviar y continuar por WhatsApp
+            </a>
+            <p>Este formulario me da contexto para analizar tu operación y preparar por WhatsApp un paquete de redes que venden para tu negocio.</p>
+          </div>
+
+          <div class="cta-person" role="img" aria-label="Vista real de un proyecto implementado"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-audit" id="preguntas">
+      <div class="container">
+        <div class="faq-audit-card">
+          <div class="section-heading">
+            <h2>Preguntas frecuentes</h2>
+            <p>Resuelve tus dudas antes de enviar tu auditoría.</p>
+          </div>
+          <div class="cta-faq-copy">
+            <div class="faq-choice-list" role="radiogroup" aria-label="Preguntas frecuentes para auditoria">
+              <div class="faq-choice-item">
+                <button type="button" class="faq-choice faq-accordion-trigger" data-faq-value="¿Venden posts o reels sueltos?">¿Venden posts o reels sueltos?</button>
+                <div class="faq-choice-answer">No. Vendemos paquetes completos: estrategia, video, contenido constante, web inteligente y seguimiento, todo enfocado en ventas reales.</div>
+              </div>
+              <div class="faq-choice-item">
+                <button type="button" class="faq-choice faq-accordion-trigger" data-faq-value="¿De verdad aseguran ventas?">¿De verdad aseguran ventas?</button>
+                <div class="faq-choice-answer">Cada paquete se diseña con un objetivo de ventas claro y se mide cada mes. En la auditoría te decimos qué resultados son realistas para tu negocio.</div>
+              </div>
+              <div class="faq-choice-item">
+                <button type="button" class="faq-choice faq-accordion-trigger" data-faq-value="¿Tengo que publicar yo?">¿Tengo que publicar yo?</button>
+                <div class="faq-choice-answer">No. Nosotros planeamos, producimos y publicamos con calendario fijo, para que tu negocio tenga constancia todo el mes.</div>
+              </div>
+              <div class="faq-choice-item">
+                <button type="button" class="faq-choice faq-accordion-trigger" data-faq-value="¿Qué necesito tener listo para empezar?">¿Qué necesito tener listo para empezar?</button>
+                <div class="faq-choice-answer">Tu oferta clara, tus metas de venta y cómo llevas tus redes hoy. Con eso definimos el paquete que más te conviene.</div>
+              </div>
+           
+
+            </div>
+     
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Ventas Digitales. Todos los derechos reservados.</p>
+      <!--<nav aria-label="Enlaces secundarios">
+        <a href="#" target="_blank" rel="noopener noreferrer" data-whatsapp data-whatsapp-text="Hola, quiero agendar mi auditoría gratis de redes.">Agendar</a>
+        <a href="XXXXXXXXXXXX" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="XXXXXXXXXXXXXXXXXXXXX" target="_blank" rel="noopener noreferrer">TikTok</a>
+        <a href="#">Condiciones</a>
+        <a href="#">Privacidad</a>
+      </nav>-->
+    </div>
+  </footer>
+
+  <script>
+    /* =====================================================================
+       CONFIGURACIÓN — cambia aquí tus datos
+       ===================================================================== */
+    // Tu WhatsApp: código de país + número, SOLO dígitos (México: 52 + 10 dígitos).
+    // Ejemplo México: "5215512345678"
+    window.WHATSAPP_NUMBER = "+522215721220";
+    // Saludo con el que empieza el mensaje de WhatsApp
+    window.WHATSAPP_GREETING = "Hola";
+
+    // Ocultar header estático en mobile al cargar
+    (function () {
+      function scrollPastHeader() {
+        if (window.innerWidth <= 820) {
+          const header = document.querySelector('.site-header');
+          const h = header ? header.offsetHeight : 70;
+          window.scrollTo(0, h);
+        }
+      }
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', scrollPastHeader);
+      } else {
+        scrollPastHeader();
+      }
+    }());
+
+    const formState = {
+      businessType: '',
+      websiteGoal: '',
+      quoteReference: '',
+      selectedServices: [],
+      selectedPack: '',
+      selectedProblems: [],
+      selectedTestimonials: [],
+      selectedFaqQuestion: '',
+      customQuestion: '',
+      name: '',
+      phone: '',
+      generatedSummary: '',
+      whatsappMessage: '',
+    };
+
+    const uiAudio = {
+      click: 'data:audio/mpeg;base64,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GHvAXBRdspycGVlF5GCOChGU5IfRKDMGASAzJUEVxZGgHjZIB5xxOgTTf0ioZA4LRzLcQDjQ7ApkpPCebpKA5PO05TK5RXCXBAzeELm4Kk7E7EDBJJyIQeGTgKSQsjIh8hZHIRSTgeZFJORVglhYl2gGN68xdgrma0R2gnkKf+BS4IYUUOrgZ0zIH5HA4NUhPT4DF4+EEgEcRSsvjq6dJ0S5t05TLyySimeE4cSmaFo5SK1IlDiJ5MNjE6TqD45bdavVq7q5ptx6ttp8/1mYLutSsalJiSX5FQIklsVRXSzFUUxRLZjV0spL7ld1ZTFUVZJLDRSkkspNFM2isimK6t////9n/7egAIYx6BTwWEAmJRo4JdNZhCpUjlg1QJXKUtwbOzmSwl/qEYFCUAopZEpMJOTImwkaUuW2nypbdk0xNE49VPstslWicUuW2W2aTUmpNDJqTVFhqCcS1NUFBYagkFUmpGtJqTUmhrDWGtI1hrDak1I7Cak1Jq6w1jqGlJJZSaKYqihopiqGzGv/dWrN7u3NZ0xRazH+3UxBTUUzLjEwMSAoYmV0YSAyKVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/7smQAD/AAAGkAAAAIAAANIAAAAQAAAaQAAAAgAAA0gAAABExBTUUzLjEwMSAoYmV0YSAyKVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVTEFNRTMuMTAxIChiZXRhIDIpVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVQ==',
+      swipe: 'data:audio/mpeg;base64,SUQzAwAAAAAAKFRTU0UAAAAUAAADTEFNRTMuMTAxIChiZXRhIDIpAAAAAAAAAAAAAAD/+7BkAA704k9FA0w0cAAADSAAAAEanZccTeGLwAAANIAAAAQ17M1ZFXZeMLEDNGDJBFUzAMD54zciVMy2YBBmFBlo1r11tmBAqfYYAQRBIUmbp2SwBx/JB6DcfyoAIPl2IT8qGhxxxESzM7fbEgmRL5K5b1fNGDB1/TtXdhZRZXzg8Xr41nN3onERRf6TixRgIABh6d2TCMMCEMvuo/XJ1GWYhevbY+XsRGfx/4fYIEyZMmm+UcH6eD7igIBjv4YAsyEjMfQjU10HWRlLMbM7GEyJGbm3eRy56GkbLoGYOBOFsESk8gpFyCh660h+t1RvlapUA8DqkVUUHfWULQXuwdqCml17Lym7hpjxagd2Su209gERlZoJIEDQRRMDsqCAhjQOIC2GyIDgyXxrMWhwZlsyLB8woRL0wtSkFh0/KZGWGKRerHlO/DeqhQuKfnrChDNXIISokhO/OFrp/7jTjid+z7jd4k7iy6SAsHBGgfP6roysvjj9+qxS0wcc/AeJEWp7/vISw/sX4ne+y9u13z+eWNcqMJIKkxwhGTDxEGMQgfIwkgIzElGnAhP5gTgYGXFIsZSJ2gyECMgGmLCJilwYLYAYeam1kZhygYwQGDm5FdmbmYhoTXV8QgwCYRGHGhrpiS0HDxloWj6W2MAGjZDgACpjYytgwyTLeChzAUewsqSEKRA6gYKZhSRZdQzJpUBCzCWAzomOc7Jw0loh0822QuwgHGDAuaHTp/iMcWIXkmkgCQSDIixI0OlBiJhBGEAoKFS0by4IkmOpIsXxoQw0wgcCBJuoE0dyAExSWHMHCCAAYz1SlxC8alDEWA6XI//7smRuD/o8ZcOD28tAAAANIAAAASWFjxwPbykAAAA0gAAABDyuxh06hES8YsGkW47OU83abo1dQyLOgio/MuZG08iHZGweVOkzVSx9H/b0uO9c47lh5n2fyMwXAzbuRS2782xJw2gQ8/kZl1d15e8F9x4Yg6Xzc/LtVJ2AIg+b56pHTcf25yfTtv/zlj4n0wJABDC2AxMP8S0wmwHDB7CbMC8jQ01lSjCiEGM/lY0zIgnjV7szNcLrm2Xxi4UaoDA5YMbcTYDIx4CMGIQacmPrBpxKCEMBEZmvgCw2WTGZBCCDRftDYQInKGRYHQUDZQqSdOKA1DkEMnKqkCOhkyZismAYgkoRCARQu604KGG0uKLAawQFg1UFLGGXwSUAAyUFABk0J6YyRU6VgJzN3FAAgBWxCQAmwwJ8X3S6T3Aorep9vqps1p1Wtl11g1a2eBw6dgiLae3ZK1DOXPI0aIwAzipGmCRAuI1pQCCI5GINhUOwqSPxDD7s3ifWAKCP3GXvmJ2N5QO2JypZGL1K8sNww2Z9Jf1uDaYZbpIck1v5vKtljS9x3hhbhjGp+d37FSkxuyK3e7avTnbk5QBN3kvEyIRlzAVD4MFIC4DEYmDOE4ab4+RlLOKGqoToY+IaZiVBwGCoDgbgoZlsbBWZSoEhDTHAqFNKOMsPKiJchlQZjiyfAYREqxgQgIDrCqxmmYNZBQVGYjmERM0RSVvJ6IdRKwc1bqaYNe/ymwJGCIGpANihQYjlSbIjSYCEAik2zmgOcOpR+acGAcJOCXCFDVhEKSOQqkREonjWeqqn+g+XwUgzppLI2bshLZxRwnnY4/jLmf/7smRbjvlPZcoL2sLAAAANIAAAAST9lypP+yEAAAA0gAAABOIPMyYemk/ilbUJbKnngBaqx6Fa6pZQ+MXbOxRXc/fjj+Q9DbOLDiNSjMvbg3eIOpKIYiLtOA/r3VYnyH5iKxOauxmBdP06lI/b7y3GWyOCJRVf+2+k9UjlFuvDcFSyVRmfzlEU/CxKbeFzmFS1YrXOWLYDmhtCpZjzIAiYuwTphehMGC4OYYdRjZlTCZmrkRWapRRZjjlfGOeIohiYzolGHXAQgHPCyAIbGAAAYRblvgKAhONEcwhS+wXIUCQQBQVTZo6PD1OrEEXS9CN4GeDjQsGmCYKaXK0HhfyafxGIYXAKrLxUFGgwwneUwOY9QIvCHCCRCJyCZCWmqXShKc8DzyExrbKJEmwXCXwtd/HUYYypAapFAe4jxNYR5VhgSD34UtYWzd/GqNahmfXK0xZT3vVJWGyV/HRo33hp9Je6kVategpnzc3BlksfF2YOhubj7wVLsDWZBLWtsteyCI20iD32fCnfxlcxIp98Hml+cilPaa5POVbZc7cYm3asSeKwW40aeeDrT1OREHpnrVuzSRK8+G85bVgCeRAKSAAAbmM5FRTDA+wVYw6A0DDuYjoAawpSbWCGdCKeYNKqYLAwY6iUBAWNR4xyjnILRgUAKqAIFrTqhQiTKXLaJpgIWBAw4tK1NqLv7EmnvMrWsE5EEIpLaLrK2xFeD40jLqVpzdWZtlR+Y/LYLbxmC/y5ToJirhgxw1+I/O5Fmey+MPzKmJRGM2JLBTDnezfmVSiN2pdBzlSqNTsug9giwqISLbDH6gCGpXOSR44rfgyllf/7smRaAvioZkvT/chAAAANIAAAASWtlxpP8yaAAAA0gAAABEXfmHp+LQPWl03OwiBsH+f6LWo/UbtH8X9qQ/DLdIed6+2N9ZRDzvVYjO5SKSurblUxH1hYlapp1ybMqearPYQC5MFZWoAafLoHemHH6cZvmXN/D1rPmpU7TO2nXu7eqt0AzhVHSMzFQO1MMnBFDBPAP8waUFQMBGCmBknxMJUDED/GgNFG8VHZk0hmUA6DgUYSCJxYmImCERGsYoIjDRIBShECISiQYx1gdxWBIRedfIqSQAmkilaCSQQaW8NN8U9NB0DElxjCkDiRZjiKiA1pAFBNsoHFmSEbaiGTltwGt1cDC42wSCJEpEJFL6SOAQqXQjJiyPwkEo0mcWAIYduWMSaIj68TVS6rLkgqsZXQ40hYqvov864jAQpfhHSCYRLYAmYtArcG2jzrQew1/nOpGzu8+UiaU6zxXoDfZukXX7AL/xONz8mfaJPXZpoIss2gi9Ls6eVSOM32bUdmfhzsDyuX55Q/GLkNzuPLjKn0anVo3qeWWrFpmXVHcdZrTxz17GN5xuVRKF50VJXkCj/3z8OYkzYwWgazDpBOMhgNUx8wBzNUoKNicfU6GY8xDKYy5EczAGkBhAk86XAYadKSoEAZ8uBizASAAQ8m0WMNiMkJFBwpjsICkHgYoF1TQHHiW/OeUHKgR0qiqMLTMgUMYEAbtkwAiJSMQOAh4baZ5xNeYQYhKTmS2D3C2QAtSSCj7SGBkzasadaF6PpUWRQgVAcsRQ8KACR7tCMMeNfwIVZo/CyHkCMliIdkvsIoqQv0pJ7lovU6iolAGqXk9v/7smRgDvlfZcUD3cmQAAANIAAAASYFkxA17IAIAAA0goAABG1gd/2bXmVqItZcxnzbtuqpEkzKR9ZaxmBH1bJBSjkUZI6sNwBQWIfdp3XelDuvhIafOblMnkEbgOUSuMN3gial0mdGnh+Tw9FYlFqe9czj1FS0MzK5jTBMMKWVO/TU8BS/KtK5DayzrX8vsjM+V8AwdgGzClB2MEoA4wZw6zGGGsM7Ed0y8iNDDLHfMEABwwJAWTCLBMDgqgcBYYEYE5ZwdAZRMFIwjEMuBTJEWYnzFjbEJBQjNY5hDEQC2gyYwBRJkVDVjV0hAASU8j7YVmGykfgAi5ZeFH2XhY8xgVeMyFTWFk1CtxWGENpyBac4EUvw4ZNMGIPmjOVlNUujxJAU0J4GjMeizXgAaXLTsFQ1eChCk0XkhYBgB1XtT3RGU4gRqrO1SwMXtg1qMZbvQza6GUIajxIsMFwHFT4cJ926xj5bYyj9Wu4VDSxaalT5QW5U3Ln9jjV4nKXEi8Y7HWitaapKYdf3jZkyVBWcPLB7UXwdSAXpeytb+BZyOvDG4amZa7rnw3Kak3L25QLqXSierRqpWgaJQzTXrEcAABIMhAgAHTEmCgHyZvwPZgahyGQ0FuYOI9hj0iiGASEsZvADhg6BqmCKBMYNYHRgFAAkQBhgPAIGAMACYGoAyozABLWIkEQwqHACFh3IiSi6xGA9yaqJymivGcojuAmEmAl6m8iLElanbjrD1MgcEOgv1A670Iy0TJGqQUzNY1VYNeq0mHM8ZYsZY865sqXU05dslduSzjZ2uuFD9JL40sVmK6Yq9cSZ7KoBh/bM6aFw8//7smRZgAmOh8ameyACAAANIMAAACQF9xy5zIAAAAA0gwAAAKcvYdBT12Jc8EFxGM25VlZm7ncnwszNXG9LHafi/Yp71WvT9oZRT2qabt6uXq1abqdr17Xbl65TRu9ldy7evY7+v3t+5V3zW6mdjPetdtT2PfvVP+1n3l7//////////////////////////////////////+8z3rDDfbdlTMwAEAAAD9uEMOO4xQVTEAM/zg6jMMkcwOCwsCf8wOTDHQQAQdBoW/z6CNGsLhIlf5ZoTWOAwwDS8q7P/zJPM4kmiNQBl0adF4P//FSgQCDnwUGIhI815YFuLy///6IocQAj0qAgIWAVucKLuTKY9///+WbEAKpgwBORJ1Ucruv68USgZpP////lAZfxuaSKV6KiXylqKb6zj/SqbscjUE//////rLW0rArAlXHlRJ0KZqlX9MxV0olRwzKalrKU///////6YDGGQrXXWtCHVwqbsoXUxxQdnrWqCtLoBlNFDUqp6XGtXuy3/////////9ajOGZwpi67HTYKzdYjSnFV20tojyM0XPJP/////4lNT0MymxTVruGqaOzM7EpVblNMQU1FMy4xMDEgKGJldGEgMilVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/7smQAD/AAAGkHAAAIAAANIOAAAQAAAaQAAAAgAAA0gAAABExBTUUzLjEwMSAoYmV0YSAyKVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVTEFNRTMuMTAxIChiZXRhIDIpVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVQ==',
+    };
+
+    // Precarga: un solo elemento <audio> por sonido, que luego se clona en cada reproducción
+    const uiAudioCache = {};
+    Object.keys(uiAudio).forEach(key => {
+      try {
+        const a = new Audio(uiAudio[key]);
+        a.preload = 'auto';
+        a.load();
+        uiAudioCache[key] = a;
+      } catch (_) {}
+    });
+
+    // Desbloquea el audio en el primer toque/clic (política de autoplay de los navegadores)
+    (function unlockUiAudio() {
+      const unlock = () => {
+        Object.values(uiAudioCache).forEach(a => {
+          const prevVol = a.volume;
+          a.volume = 0;
+          const pr = a.play();
+          if (pr && pr.then) {
+            pr.then(() => { a.pause(); a.currentTime = 0; a.volume = prevVol; }).catch(() => { a.volume = prevVol; });
+          } else {
+            a.volume = prevVol;
+          }
+        });
+        window.removeEventListener('pointerdown', unlock, true);
+        window.removeEventListener('touchstart', unlock, true);
+        window.removeEventListener('keydown', unlock, true);
+      };
+      window.addEventListener('pointerdown', unlock, true);
+      window.addEventListener('touchstart', unlock, true);
+      window.addEventListener('keydown', unlock, true);
+    }());
+
+/*
+      Mapa de tracking Meta (Landing Psicologos)
+
+      Eventos custom (prefijo LP_):
+      - LP_LANDING_VIEW: visita a la landing principal.
+      - LP_CTA_TOP_CLICK: clic en CTA visible al entrar (hero/header).
+      - LP_FORM_START: primer foco real en campos del formulario.
+      - LP_FORM_COMPLETED: formulario con senales claras de intencion.
+      - LP_CTA_FORM_WHATSAPP_CLICK: clic en CTA de WhatsApp del formulario.
+      - LP_FOOTER_LINK_CLICK: clic en enlaces del footer.
+        destination esperado: agendar_whatsapp | instagram | tiktok | cursos | condiciones | privacidad | otro
+      - LP_FAQ_INTERACTION: interaccion con preguntas frecuentes.
+
+      Eventos estandar Meta (optimizacion/reportes):
+      - ViewContent: vista de contenido de landing.
+      - InitiateCheckout: clic en CTA superior para iniciar cotizacion.
+      - Lead: clic en CTA final de WhatsApp (formulario).
+      - Contact: clic de contacto por WhatsApp (formulario/footer).
+    */
+
+    /* ================================================================
+       WHATSAPP: todo el formulario termina aquí. Sin APIs, sin base de datos.
+       El número y el saludo se cambian al inicio de este script
+       ================================================================ */
+    function getWhatsAppNumber() {
+      const digits = String(window.WHATSAPP_NUMBER || '').replace(/\D/g, '');
+      return digits.length >= 10 ? digits : '';
+    }
+
+    function buildWhatsAppUrl(text) {
+      const phone = getWhatsAppNumber();
+      const base = phone
+        ? `https://api.whatsapp.com/send?phone=${phone}`
+        : 'https://api.whatsapp.com/send?';
+      const msg = text ? `${phone ? '&' : ''}text=${encodeURIComponent(text)}` : '';
+      return base + msg;
+    }
+
+    function initWhatsAppLinks() {
+      if (!getWhatsAppNumber()) {
+        console.warn('[WhatsApp] Falta tu número: edítalo al inicio del script en index.html (WHATSAPP_NUMBER).');
+      }
+      document.querySelectorAll('a[data-whatsapp]').forEach(link => {
+        const text = link.dataset.whatsappText || 'Hola, me interesa una auditoría gratis de mis redes.';
+        link.setAttribute('href', buildWhatsAppUrl(text));
+      });
+    }
+
+    function playUiSound(type) {
+      const src = uiAudio[type];
+      if (!src) return;
+      try {
+        const base = uiAudioCache[type];
+        const audio = base ? base.cloneNode(true) : new Audio(src);
+        audio.volume = 1;
+        audio.currentTime = 0;
+        const p = audio.play();
+        if (p && p.catch) p.catch(() => {});
+      } catch (_) {}
+    }
+
+    const PROJECT_GALLERIES = {
+      'proyecto-1': { title: 'Proyecto 1', images: ['proyecto-1.webp'] },
+      'proyecto-2': { title: 'Proyecto 2', images: ['proyecto-2.webp', 'proyecto-2-a.webp', 'proyecto-2-b.webp'] },
+      'proyecto-3': { title: 'Proyecto 3', images: ['proyecto-3.webp'] },
+      'proyecto-4': { title: 'Proyecto 4', images: ['proyecto-4.webp'] },
+    };
+
+    function initProjectGalleryModal() {
+      const shots = Array.from(document.querySelectorAll('.js-project-shot[data-project]'));
+      if (!shots.length) return;
+
+      const modal = document.getElementById('project-gallery-modal');
+      const backdrop = document.getElementById('project-gallery-backdrop');
+      const closeBtn = document.getElementById('project-gallery-close');
+      const prevBtn = document.getElementById('project-gallery-prev');
+      const nextBtn = document.getElementById('project-gallery-next');
+      const title = document.getElementById('project-gallery-title');
+      const stage = document.querySelector('.project-gallery-stage');
+      const mainImage = document.getElementById('project-gallery-main-image');
+      const thumbs = document.getElementById('project-gallery-thumbs');
+
+      if (!modal || !backdrop || !closeBtn || !prevBtn || !nextBtn || !title || !stage || !mainImage || !thumbs) return;
+
+      let activeProjectKey = '';
+      let activeIndex = 0;
+
+      function getGallery(projectKey) {
+        const project = PROJECT_GALLERIES[projectKey];
+        if (!project || !Array.isArray(project.images)) return [];
+        return project.images.filter(Boolean);
+      }
+
+      function renderThumbs(images) {
+        thumbs.innerHTML = '';
+        images.forEach((imageSrc, index) => {
+          const thumbBtn = document.createElement('button');
+          thumbBtn.type = 'button';
+          thumbBtn.className = 'project-gallery-thumb';
+          thumbBtn.setAttribute('aria-label', `Ver imagen ${index + 1}`);
+          if (index === activeIndex) thumbBtn.classList.add('is-active');
+
+          const img = document.createElement('img');
+          img.src = imageSrc;
+          img.alt = '';
+          img.loading = 'lazy';
+          thumbBtn.appendChild(img);
+
+          thumbBtn.addEventListener('click', () => {
+            activeIndex = index;
+            render();
+          });
+
+          thumbs.appendChild(thumbBtn);
+        });
+      }
+
+      function render() {
+        const project = PROJECT_GALLERIES[activeProjectKey];
+        const images = getGallery(activeProjectKey);
+        if (!project || !images.length) return;
+
+        title.textContent = project.title;
+        mainImage.src = images[activeIndex];
+        mainImage.alt = `${project.title} - vista ${activeIndex + 1}`;
+        stage.scrollTop = 0;
+        renderThumbs(images);
+
+        const shouldEnableNav = images.length > 1;
+        prevBtn.disabled = !shouldEnableNav;
+        nextBtn.disabled = !shouldEnableNav;
+      }
+
+      function open(projectKey) {
+        const images = getGallery(projectKey);
+        if (!images.length) return;
+
+        playUiSound('click');
+        activeProjectKey = projectKey;
+        activeIndex = 0;
+        render();
+        modal.removeAttribute('hidden');
+        document.documentElement.style.overflow = 'hidden';
+        document.body.style.overflow = 'hidden';
+        closeBtn.focus();
+      }
+
+      function close() {
+        modal.setAttribute('hidden', '');
+        document.documentElement.style.overflow = '';
+        document.body.style.overflow = '';
+      }
+
+      function go(step) {
+        const images = getGallery(activeProjectKey);
+        if (images.length <= 1) return;
+        activeIndex = (activeIndex + step + images.length) % images.length;
+        render();
+      }
+
+      shots.forEach((shot) => {
+        const projectKey = shot.dataset.project;
+        if (!projectKey) return;
+
+        shot.addEventListener('click', () => open(projectKey));
+        shot.addEventListener('keydown', (e) => {
+          if (e.key !== 'Enter' && e.key !== ' ') return;
+          e.preventDefault();
+          open(projectKey);
+        });
+      });
+
+      closeBtn.addEventListener('click', close);
+      backdrop.addEventListener('click', close);
+      prevBtn.addEventListener('click', () => go(-1));
+      nextBtn.addEventListener('click', () => go(1));
+
+      document.addEventListener('keydown', (e) => {
+        if (modal.hasAttribute('hidden')) return;
+        if (e.key === 'Escape') close();
+        if (e.key === 'ArrowLeft') go(-1);
+        if (e.key === 'ArrowRight') go(1);
+      });
+    }
+
+
+    function syncFormState() {
+      formState.businessType = (document.getElementById('quote-service')?.value || '').trim();
+      formState.websiteGoal = (document.getElementById('quote-goal')?.value || '').trim();
+      formState.quoteReference = (document.getElementById('quote-ref')?.value || '').trim();
+      formState.selectedServices = Array.from(document.querySelectorAll('.benefits .benefit-card.is-selected h3')).map(el => el.textContent.trim());
+      formState.selectedProblems = Array.from(document.querySelectorAll('.problems .problem-card.is-selected h3')).map(el => el.textContent.trim());
+      formState.selectedTestimonials = Array.from(document.querySelectorAll('.testimonials .testimonial-card.is-selected p')).map(el => (el.textContent || '').replace(/[“”]/g, '').trim());
+      formState.customQuestion = (document.getElementById('faq-custom-question')?.value || '').trim();
+      formState.name = (document.getElementById('quote-name')?.value || '').trim();
+      formState.phone = (document.getElementById('quote-phone')?.value || '').trim();
+      return formState;
+    }
+
+    function joinSpanishList(items) {
+      if (!items.length) return '';
+      if (items.length === 1) return items[0];
+      if (items.length === 2) return `${items[0]} y ${items[1]}`;
+      return `${items.slice(0, -1).join(', ')} y ${items[items.length - 1]}`;
+    }
+
+    function buildQuoteSummary() {
+      syncFormState();
+
+      const summaryLines = [];
+      let intro = 'Quiero cotizar un paquete de redes que venden';
+      const resolvedQuestion = formState.selectedFaqQuestion === 'Otra pregunta'
+        ? formState.customQuestion
+        : formState.selectedFaqQuestion;
+
+      if (formState.businessType) {
+        intro += ` para ${formState.businessType}`;
+      }
+
+      if (formState.websiteGoal) {
+        intro += `${formState.businessType ? ',' : ''} enfocado en ${formState.websiteGoal}`;
+      }
+
+      summaryLines.push(`${intro}.`);
+
+      if (formState.quoteReference) {
+        summaryLines.push(`Así llevo mis redes hoy: ${formState.quoteReference}.`);
+      }
+
+      if (formState.selectedProblems.length) {
+        summaryLines.push(`Me interesa resolver sobre todo ${joinSpanishList(formState.selectedProblems)}.`);
+      }
+
+      if (formState.selectedServices.length) {
+        summaryLines.push(`Tambien me gustaria incluir ${joinSpanishList(formState.selectedServices)}.`);
+      }
+
+      if (resolvedQuestion) {
+        summaryLines.push(`Tambien quiero resolver esta duda: ${resolvedQuestion}.`);
+      }
+
+      formState.generatedSummary = summaryLines.join(' ').trim();
+      return formState.generatedSummary;
+    }
+
+    function initMultiSelectableCards(selector, { soundType = 'swipe' } = {}) {
+      const cards = Array.from(document.querySelectorAll(selector));
+      if (!cards.length) return;
+
+      cards.forEach(card => {
+        card.setAttribute('role', 'checkbox');
+        card.setAttribute('tabindex', '0');
+        card.setAttribute('aria-checked', card.classList.contains('is-selected') ? 'true' : 'false');
+
+        const toggleSelect = () => {
+          const selected = card.classList.toggle('is-selected');
+          card.setAttribute('aria-checked', selected ? 'true' : 'false');
+          playUiSound(soundType);
+          syncFormState();
+        };
+
+        card.addEventListener('click', toggleSelect);
+        card.addEventListener('keydown', e => {
+          if (e.key === ' ' || e.key === 'Enter') {
+            e.preventDefault();
+            toggleSelect();
+          }
+        });
+      });
+    }
+
+    function initBenefitMultiSelect() {
+      initMultiSelectableCards('.benefits .benefit-card', { soundType: 'click' });
+    }
+
+    function initProblemMultiSelect() {
+      if (window.innerWidth <= 480) return;
+      initMultiSelectableCards('.problems .problem-card:not(.problem-card-thanks)', { soundType: 'click' });
+    }
+
+    function initFaqSelector() {
+      const options = Array.from(document.querySelectorAll('.faq-choice'));
+      const items = Array.from(document.querySelectorAll('.faq-choice-item'));
+      const customWrap = document.getElementById('faq-custom-wrap');
+      const customInput = document.getElementById('faq-custom-question');
+      if (!options.length) return;
+
+      const resetFaqItems = () => {
+        options.forEach(btn => btn.classList.remove('is-selected'));
+        items.forEach(item => item.classList.remove('is-open'));
+      };
+
+      const selectFaq = option => {
+        const value = option.dataset.faqValue || '';
+        const isOther = value === 'Otra pregunta';
+        const item = option.closest('.faq-choice-item');
+        const wasActive = option.classList.contains('is-selected');
+
+        playUiSound('swipe');
+
+        resetFaqItems();
+
+        if (wasActive) {
+          formState.selectedFaqQuestion = '';
+          if (customWrap) customWrap.hidden = true;
+          syncFormState();
+          return;
+        }
+
+        option.classList.add('is-selected');
+        formState.selectedFaqQuestion = value;
+
+        if (!isOther && item) {
+          item.classList.add('is-open');
+        }
+
+        if (customWrap) {
+          customWrap.hidden = !isOther;
+          if (!isOther && customInput) customInput.value = '';
+        }
+
+        syncFormState();
+      };
+
+      options.forEach(option => {
+        option.addEventListener('click', () => selectFaq(option));
+      });
+
+      if (customInput) {
+        customInput.addEventListener('input', () => {
+          if ((customInput.value || '').trim()) {
+            formState.selectedFaqQuestion = 'Otra pregunta';
+          }
+          syncFormState();
+        });
+      }
+    }
+
+    function smoothScrollToSection(target, { extraOffset = 16 } = {}) {
+      if (!target) return;
+      const header = document.querySelector('.site-header');
+      const headerHeight = header ? header.offsetHeight : 0;
+      const top = target.getBoundingClientRect().top + window.scrollY - headerHeight - extraOffset;
+      window.scrollTo({
+        top: Math.max(0, top),
+        behavior: 'smooth',
+      });
+    }
+
+    function resetHorizontalScroll() {
+      document.documentElement.scrollLeft = 0;
+      document.body.scrollLeft = 0;
+      if (window.scrollX !== 0) {
+        window.scrollTo(0, window.scrollY || 0);
+      }
+    }
+
+    function getQuoteScrollOffset() {
+      return window.innerWidth <= 820 ? -120 : -40;
+    }
+
+    function scrollToQuoteFormAndFocus() {
+      const section = document.getElementById('cotizar');
+      const firstInput = document.getElementById('quote-service');
+      if (!section || !firstInput) return;
+      smoothScrollToSection(section, { extraOffset: getQuoteScrollOffset() });
+      setTimeout(() => {
+        firstInput.focus({ preventScroll: true });
+        firstInput.classList.add('glow-focus');
+        setTimeout(() => firstInput.classList.remove('glow-focus'), 2600);
+      }, 420);
+    }
+
+    function initCaseMetricsCounter() {
+      const metrics = Array.from(document.querySelectorAll('.case-metric-number'));
+      if (!metrics.length) return;
+
+      const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      const setFinalValue = (el) => {
+        const prefix = el.dataset.prefix || '';
+        const suffix = el.dataset.suffix || '';
+        const decimals = Number(el.dataset.decimals || '0');
+        const target = Number(el.dataset.value || '0');
+        const safeValue = Number.isFinite(target) ? target : 0;
+        el.textContent = `${prefix}${safeValue.toFixed(decimals)}${suffix}`;
+      };
+
+      const animateValue = (el) => {
+        const prefix = el.dataset.prefix || '';
+        const suffix = el.dataset.suffix || '';
+        const decimals = Number(el.dataset.decimals || '0');
+        const target = Number(el.dataset.value || '0');
+        const safeTarget = Number.isFinite(target) ? target : 0;
+        const duration = 1800;
+        const start = performance.now();
+
+        const frame = (now) => {
+          const progress = Math.min((now - start) / duration, 1);
+          const eased = 1 - Math.pow(1 - progress, 3);
+          const current = safeTarget * eased;
+          el.textContent = `${prefix}${current.toFixed(decimals)}${suffix}`;
+
+          if (progress < 1) {
+            requestAnimationFrame(frame);
+          } else {
+            setFinalValue(el);
+          }
+        };
+
+        requestAnimationFrame(frame);
+      };
+
+      if (prefersReducedMotion) {
+        metrics.forEach(setFinalValue);
+        return;
+      }
+
+      // Se observa la cuadrícula de métricas (no toda la sección) para que también dispare en móvil
+      const target = document.querySelector('.case-study .metrics-grid') || document.querySelector('.case-study');
+      if (!target) {
+        metrics.forEach(setFinalValue);
+        return;
+      }
+
+      let hasAnimated = false;
+
+      const startCount = () => {
+        if (hasAnimated) return;
+        hasAnimated = true;
+        metrics.forEach((el, index) => {
+          const prefix = el.dataset.prefix || '';
+          const suffix = el.dataset.suffix || '';
+          const decimals = Number(el.dataset.decimals || '0');
+          el.textContent = `${prefix}${(0).toFixed(decimals)}${suffix}`;
+          setTimeout(() => animateValue(el), index * 150);
+        });
+      };
+
+      if (!('IntersectionObserver' in window)) {
+        startCount();
+        return;
+      }
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          startCount();
+          observer.disconnect();
+        });
+      }, { threshold: 0.35 });
+
+      observer.observe(target);
+    }
+
+    function initPackCTAs() {
+      document.querySelectorAll('.pack-cta').forEach(link => {
+        link.addEventListener('click', () => {
+          const card = link.closest('.pack');
+          const name = link.dataset.pack || '';
+          const items = card ? Array.from(card.querySelectorAll('.pack-list li')).map(li => `${li.querySelector('b').textContent.trim()} ${li.querySelector('.pack-lbl').textContent.trim()}`) : [];
+          formState.selectedPack = name ? `Pack ${name} (${items.join(', ')})` : '';
+        });
+      });
+    }
+
+    function initQuoteJumpCTAs() {
+      document.querySelectorAll('.js-open-quote').forEach(link => {
+        link.addEventListener('click', e => {
+          e.preventDefault();
+          scrollToQuoteFormAndFocus();
+        });
+      });
+    }
+
+    function initCtaClickSound() {
+      const ctaLinks = Array.from(document.querySelectorAll('.js-open-quote, #send-quote-whatsapp, .site-footer a[data-whatsapp]'));
+      if (!ctaLinks.length) return;
+
+      ctaLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          playUiSound('click');
+        });
+      });
+    }
+
+    function initNavSectionScroll() {
+      const navLinks = Array.from(document.querySelectorAll('.main-nav a[href^="#"]'));
+      if (!navLinks.length) return;
+
+      const NAV_SCROLL_EXTRA_OFFSET = 16; // Ajusta este valor para afinar dónde aterriza cada sección
+
+      navLinks.forEach(link => {
+        link.addEventListener('click', e => {
+          const href = link.getAttribute('href') || '';
+          const targetId = href.replace('#', '');
+          const target = targetId ? document.getElementById(targetId) : null;
+          if (!target) return;
+
+          e.preventDefault();
+          const header = document.querySelector('.site-header');
+          const headerHeight = header ? header.offsetHeight : 0;
+          const top = target.getBoundingClientRect().top + window.scrollY - headerHeight - NAV_SCROLL_EXTRA_OFFSET;
+
+          window.scrollTo({
+            top: Math.max(0, top),
+            behavior: 'smooth',
+          });
+        });
+      });
+    }
+
+    function buildQuoteMessage() {
+      syncFormState();
+      const resolvedQuestion = formState.selectedFaqQuestion === 'Otra pregunta'
+        ? formState.customQuestion
+        : formState.selectedFaqQuestion;
+      buildQuoteSummary();
+
+      const businessType = formState.businessType || 'sin especificar';
+      const websiteGoal = formState.websiteGoal || 'sin especificar';
+      const quoteReference = formState.quoteReference || 'sin ejemplos';
+
+      const lines = [
+        `${window.WHATSAPP_GREETING || 'Hola'}, me interesa cotizar un paquete de redes que venden para: ${businessType}, enfocado en: ${websiteGoal}. Contexto actual: ${quoteReference}.`
+      ];
+      if (formState.selectedServices.length) lines.push(`\nMe interesa que mi paquete incluya:\n${formState.selectedServices.join(', ')}`);
+      if (formState.selectedProblems.length) lines.push(`\nPor qué siento que no vendo:\n${formState.selectedProblems.join(', ')}`);
+      if (formState.selectedTestimonials.length) lines.push(`\nTestimonios que me llamaron la atención:\n${formState.selectedTestimonials.join(' | ')}`);
+      if (resolvedQuestion) lines.push(`\nPregunta o duda:\n${resolvedQuestion}`);
+      if (formState.name) lines.push(`\nNombre:\n${formState.name}`);
+      if (formState.phone) lines.push(`\nTeléfono:\n${formState.phone}`);
+      if (formState.selectedPack) lines.push(`\nPaquete que me interesa:\n${formState.selectedPack}`);
+      lines.push('\nMe gustaría recibir más información.');
+
+      const message = lines.join('\n').replace(/\n{3,}/g, '\n\n').trim();
+      formState.whatsappMessage = message;
+      return encodeURIComponent(message);
+    }
+
+    function initTestimonialSelector() {
+      if (window.innerWidth <= 480) return;
+      initMultiSelectableCards('.testimonial-choice', { soundType: 'click' });
+    }
+
+    function initQuoteWhatsAppCTA() {
+      const sendBtn = document.getElementById('send-quote-whatsapp');
+      if (!sendBtn) return;
+
+      ['quote-service', 'quote-goal', 'quote-ref', 'faq-custom-question'].forEach((fieldId) => {
+        const field = document.getElementById(fieldId);
+        if (!field) return;
+        field.addEventListener('input', () => {
+          syncFormState();
+          buildQuoteSummary();
+        });
+      });
+
+      sendBtn.addEventListener('click', () => {
+        syncFormState();
+        // buildQuoteMessage() ya devuelve el texto codificado; se decodifica para reusar buildWhatsAppUrl
+        const message = decodeURIComponent(buildQuoteMessage());
+        sendBtn.setAttribute('href', buildWhatsAppUrl(message));
+
+      });
+    }
+
+    function initThemeToggle() {
+      const btn = document.getElementById('theme-toggle');
+      if (!btn) return;
+      const root = document.documentElement;
+      const meta = document.querySelector('meta[name="theme-color"]');
+      function apply(theme) {
+        root.setAttribute('data-theme', theme);
+        btn.setAttribute('aria-pressed', String(theme === 'dark'));
+        btn.setAttribute('aria-label', theme === 'dark' ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+        if (meta) meta.setAttribute('content', theme === 'dark' ? '#0d0a05' : '#d4af37');
+      }
+      apply(root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light');
+      btn.addEventListener('click', () => {
+        const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        apply(next);
+        try { localStorage.setItem('theme', next); } catch (_) {}
+      });
+    }
+
+    function initWeSellReveal() {
+      const section = document.getElementById('vendemos-por-ti');
+      if (!section) return;
+      if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      section.classList.add('ws-anim-ready');
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            section.classList.add('is-visible');
+            io.disconnect();
+          }
+        });
+      }, { threshold: 0.25 });
+      io.observe(section);
+    }
+
+    function safeInit(name, fn) {
+      try {
+        fn();
+      } catch (error) {
+        console.error(`[init] ${name} failed`, error);
+      }
+    }
+
+    safeInit('theme-toggle', initThemeToggle);
+    safeInit('we-sell-reveal', initWeSellReveal);
+    safeInit('whatsapp-links', initWhatsAppLinks);
+    safeInit('pack-ctas', initPackCTAs);
+    safeInit('quote-jump-ctas', initQuoteJumpCTAs);
+    safeInit('cta-click-sound', initCtaClickSound);
+    safeInit('quote-whatsapp-cta', initQuoteWhatsAppCTA);
+    safeInit('nav-section-scroll', initNavSectionScroll);
+    safeInit('benefit-multi-select', initBenefitMultiSelect);
+    safeInit('problem-multi-select', initProblemMultiSelect);
+    safeInit('faq-selector', initFaqSelector);
+    safeInit('testimonial-selector', initTestimonialSelector);
+    safeInit('case-metrics-counter', initCaseMetricsCounter);
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', () => {
+        safeInit('project-gallery-modal', initProjectGalleryModal);
+      }, { once: true });
+    } else {
+      safeInit('project-gallery-modal', initProjectGalleryModal);
+    }
+
+    // ── Scroll guiado + fade-in pasos (solo móvil) ──────────────────────────
+    if (window.innerWidth <= 480) {
+      function populateSummary() {
+        syncFormState();
+        const body = document.getElementById('thanks-summary-body');
+        if (!body) return;
+        const items = [];
+        if (formState.selectedServices.length)
+          items.push(`${formState.selectedServices.length} servicio${formState.selectedServices.length > 1 ? 's' : ''} que te interesaron`);
+        if (formState.selectedProblems.length)
+          items.push(`${formState.selectedProblems.length} problema${formState.selectedProblems.length > 1 ? 's' : ''} que reconociste`);
+        if (formState.selectedTestimonials.length)
+          items.push(`${formState.selectedTestimonials.length} testimonio${formState.selectedTestimonials.length > 1 ? 's' : ''} que te resonaron`);
+        if (items.length === 0)
+          items.push('Tus respuestas quedaron en la cotizacion');
+        body.innerHTML = `<ul>${items.map(i => `<li>${i}</li>`).join('')}</ul>`;
+      }
+
+      // Fade-in de pasos via IntersectionObserver
+      const processSteps = Array.from(document.querySelectorAll('.process-step'));
+      processSteps.forEach(s => s.classList.add('step-hidden'));
+
+      const stepObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.remove('step-hidden');
+            entry.target.classList.add('step-visible');
+            stepObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.15 });
+
+      processSteps.forEach(s => stepObserver.observe(s));
+
+      // Scroll guiado al pulsar "Continuar"
+      const btnContinuar = document.getElementById('btn-continuar');
+      const testimoniosSection = document.getElementById('testimonios');
+
+      if (btnContinuar && testimoniosSection) {
+        let scrollRaf = null;
+        let guiding = false;
+
+        const stopGuide = () => {
+          if (!guiding) return;
+          guiding = false;
+          if (scrollRaf) { cancelAnimationFrame(scrollRaf); scrollRaf = null; }
+          ['wheel', 'touchstart', 'touchmove', 'keydown', 'mousedown'].forEach(ev =>
+            window.removeEventListener(ev, stopGuide, { passive: true })
+          );
+        };
+
+        const startGuide = () => {
+          const targetY = testimoniosSection.getBoundingClientRect().top + window.scrollY;
+          const speed = 1.4; // px por frame (~84px/s a 60fps)
+          guiding = true;
+
+          ['wheel', 'touchstart', 'touchmove', 'keydown', 'mousedown'].forEach(ev =>
+            window.addEventListener(ev, stopGuide, { passive: true, once: false })
+          );
+
+          const step = () => {
+            if (!guiding) return;
+            const current = window.scrollY;
+            if (current >= targetY - 4) { stopGuide(); return; }
+            window.scrollBy(0, speed);
+            scrollRaf = requestAnimationFrame(step);
+          };
+
+          scrollRaf = requestAnimationFrame(step);
+        };
+
+        btnContinuar.addEventListener('click', () => {
+          stopGuide();
+          const procesoSection = document.getElementById('proceso');
+          if (!procesoSection) { startGuide(); return; }
+
+          // 1. Salto rápido a #proceso
+          procesoSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+          // 2. Cuando el scroll rápido termine, arranca el guide lento a #testimonios
+          let lastY = window.scrollY;
+          let stillCount = 0;
+          const waitStop = () => {
+            const y = window.scrollY;
+            if (y === lastY) {
+              stillCount++;
+              if (stillCount >= 6) { startGuide(); return; }
+            } else {
+              stillCount = 0;
+              lastY = y;
+            }
+            requestAnimationFrame(waitStop);
+          };
+          requestAnimationFrame(waitStop);
+        });
+      }
+
+      // Tinder-style swipe para testimonios
+      const tCards = Array.from(document.querySelectorAll('.testimonial-choice'));
+
+      function getTopTestimonial() {
+        return tCards.find(c => !c.classList.contains('t-swiped-right') && !c.classList.contains('t-swiped-left'));
+      }
+
+      function updateTestimonialStack() {
+        const remaining = tCards.filter(c => !c.classList.contains('t-swiped-right') && !c.classList.contains('t-swiped-left'));
+        remaining.forEach((c, i) => {
+          c.style.zIndex = remaining.length - i + 1;
+          if (i === 0) c.style.transform = 'rotate(0deg) translateY(0) scale(1)';
+          else if (i === 1) c.style.transform = 'rotate(1.5deg) translateY(8px) scale(0.98)';
+          else if (i === 2) c.style.transform = 'rotate(-1.5deg) translateY(16px) scale(0.96)';
+          else if (i === 3) c.style.transform = 'rotate(1deg) translateY(24px) scale(0.94)';
+          else c.style.transform = 'rotate(-1deg) translateY(32px) scale(0.92)';
+        });
+        if (remaining.length === 0) {
+          const tthanks = document.getElementById('testimonial-thanks');
+          if (tthanks) {
+            tthanks.classList.add('is-visible');
+            tthanks.removeAttribute('aria-hidden');
+            const tGrid = tthanks.closest('.testimonials-grid');
+            if (tGrid) requestAnimationFrame(() => { tGrid.style.height = tthanks.offsetHeight + 'px'; });
+            populateSummary();
+          }
+        }
+      }
+
+      tCards.forEach(card => {
+        let tStartX = 0, tCurrentX = 0, tDragging = false;
+
+        const tDragMove = x => {
+          if (!tDragging) return;
+          tCurrentX = x - tStartX;
+          card.style.transform = `translateX(${tCurrentX}px) rotate(${tCurrentX * 0.08}deg)`;
+          card.classList.remove('t-glow-right', 't-glow-left');
+          if (tCurrentX > 30) card.classList.add('t-glow-right');
+          else if (tCurrentX < -30) card.classList.add('t-glow-left');
+        };
+
+        const tDragEnd = () => {
+          if (!tDragging) return;
+          tDragging = false;
+          card.classList.remove('t-glow-right', 't-glow-left');
+          card.style.cursor = 'grab';
+          if (Math.abs(tCurrentX) > 70) {
+            if (tCurrentX > 0) {
+              card.classList.add('t-swiped-right', 'is-selected');
+              card.setAttribute('aria-checked', 'true');
+            } else {
+              card.classList.add('t-swiped-left');
+              card.classList.remove('is-selected');
+              card.setAttribute('aria-checked', 'false');
+            }
+            playUiSound('swipe');
+            syncFormState();
+            setTimeout(updateTestimonialStack, 320);
+          } else {
+            card.style.transform = '';
+          }
+          tStartX = 0; tCurrentX = 0;
+          requestAnimationFrame(resetHorizontalScroll);
+        };
+
+        card.addEventListener('mousedown', e => {
+          if (card !== getTopTestimonial()) return;
+          tStartX = e.clientX; tDragging = true; card.style.cursor = 'grabbing';
+        });
+        document.addEventListener('mousemove', e => tDragMove(e.clientX));
+        document.addEventListener('mouseup', tDragEnd);
+        card.addEventListener('touchstart', e => {
+          if (card !== getTopTestimonial()) return;
+          tStartX = e.touches[0].clientX; tDragging = true;
+        }, { passive: true });
+        card.addEventListener('touchmove', e => {
+          if (tDragging) e.preventDefault();
+          tDragMove(e.touches[0].clientX);
+        }, { passive: false });
+        card.addEventListener('touchend', tDragEnd);
+      });
+      const testimonialThanks = document.getElementById('testimonial-thanks');
+      const btnIrCotizar = document.getElementById('btn-ir-cotizar');
+      const cotizarSection = document.getElementById('cotizar');
+
+      if (testimonialThanks && btnIrCotizar && cotizarSection) {
+        const summaryObserver = new IntersectionObserver((entries) => {
+          entries.forEach(entry => { if (entry.isIntersecting) populateSummary(); });
+        }, { threshold: 0.1 });
+        summaryObserver.observe(testimonialThanks);
+
+        btnIrCotizar.addEventListener('click', () => {
+          playUiSound('click');
+          smoothScrollToSection(cotizarSection, { extraOffset: getQuoteScrollOffset() });
+        });
+      }
+    }
+
+    // Tinder-style swipe for problem cards (mobile only)
+    if (window.innerWidth <= 480) {
+      const cards = Array.from(document.querySelectorAll('.problem-card:not(.problem-card-thanks)'));
+
+      function getTopCard() {
+        return cards.find(c => !c.classList.contains('swiped-right') && !c.classList.contains('swiped-left'));
+      }
+
+      function updateStack() {
+        const remaining = cards.filter(c => !c.classList.contains('swiped-right') && !c.classList.contains('swiped-left'));
+        remaining.forEach((c, i) => {
+          c.style.zIndex = remaining.length - i;
+          if (i === 0) {
+            c.style.transform = 'rotate(0deg) translateY(0) scale(1)';
+          } else if (i === 1) {
+            c.style.transform = 'rotate(2deg) translateY(10px) scale(0.97)';
+          } else {
+            c.style.transform = 'rotate(-2deg) translateY(20px) scale(0.94)';
+          }
+        });
+
+        if (remaining.length === 0) {
+          const thanks = document.getElementById('problem-thanks');
+          if (thanks) {
+            thanks.classList.add('is-visible');
+            thanks.removeAttribute('aria-hidden');
+            // Reducir altura del grid a la de la tarjeta de gracias
+            const grid = thanks.closest('.problems-grid');
+            if (grid) {
+              requestAnimationFrame(() => {
+                grid.style.height = thanks.offsetHeight + 'px';
+              });
+            }
+          }
+        }
+      }
+
+      cards.forEach(card => {
+        let startX = 0;
+        let currentX = 0;
+        let isDragging = false;
+
+        function onDragMove(x) {
+          if (!isDragging) return;
+          currentX = x - startX;
+          const rotate = currentX * 0.08;
+          card.style.transform = `translateX(${currentX}px) rotate(${rotate}deg)`;
+          card.classList.remove('glow-right', 'glow-left');
+          if (currentX > 30) card.classList.add('glow-right');
+          else if (currentX < -30) card.classList.add('glow-left');
+        }
+
+        function onDragEnd() {
+          if (!isDragging) return;
+          isDragging = false;
+          card.classList.remove('glow-right', 'glow-left');
+          card.style.cursor = 'grab';
+          if (Math.abs(currentX) > 70) {
+            if (currentX > 0) {
+              card.classList.add('swiped-right');
+              card.classList.add('is-selected');
+              card.setAttribute('aria-checked', 'true');
+            } else {
+              card.classList.add('swiped-left');
+              card.classList.remove('is-selected');
+              card.setAttribute('aria-checked', 'false');
+            }
+            playUiSound('swipe');
+            syncFormState();
+            setTimeout(updateStack, 320);
+          } else {
+            card.style.transform = '';
+          }
+          startX = 0;
+          currentX = 0;
+          requestAnimationFrame(resetHorizontalScroll);
+        }
+
+        // Mouse
+        card.addEventListener('mousedown', e => {
+          if (card !== getTopCard()) return;
+          startX = e.clientX;
+          isDragging = true;
+          card.style.cursor = 'grabbing';
+        });
+        document.addEventListener('mousemove', e => onDragMove(e.clientX));
+        document.addEventListener('mouseup', onDragEnd);
+
+        // Touch
+        card.addEventListener('touchstart', e => {
+          if (card !== getTopCard()) return;
+          startX = e.touches[0].clientX;
+          isDragging = true;
+        }, { passive: true });
+        card.addEventListener('touchmove', e => {
+          if (isDragging) e.preventDefault();
+          onDragMove(e.touches[0].clientX);
+        }, { passive: false });
+        card.addEventListener('touchend', onDragEnd);
+      });
+    }
+
+  </script>
+
+
+  <!-- Modal galeria de proyectos -->
+  <div class="project-gallery-modal" id="project-gallery-modal" role="dialog" aria-modal="true" aria-label="Galeria de proyectos" hidden>
+    <div class="project-gallery-backdrop" id="project-gallery-backdrop"></div>
+    <div class="project-gallery-box">
+      <button class="project-gallery-close" id="project-gallery-close" type="button" aria-label="Cerrar">&times;</button>
+      <div class="project-gallery-header">
+        <p class="project-gallery-title" id="project-gallery-title">Proyecto</p>
+      </div>
+      <div class="project-gallery-content">
+        <div class="project-gallery-stage">
+          <button class="project-gallery-nav project-gallery-prev" id="project-gallery-prev" type="button" aria-label="Imagen anterior">&#10094;</button>
+          <img class="project-gallery-main-image" id="project-gallery-main-image" src="#" alt="" />
+          <button class="project-gallery-nav project-gallery-next" id="project-gallery-next" type="button" aria-label="Imagen siguiente">&#10095;</button>
+        </div>
+        <div class="project-gallery-thumbs" id="project-gallery-thumbs"></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

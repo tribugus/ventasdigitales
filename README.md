@@ -1,2 +1,2 @@
-# ventasdigitales
-Ventas Digitales
+# ventas
+ventas digitales
